@@ -2621,3 +2621,17 @@ div.cbi-value var.cbi-tooltip-container,
 #view div[style] > svg line[style] {
 	stroke: var(--text-color-highest)!important;
 }
+/* 添加司络 SL-3000 Logo */
+#mainmenu::before {
+  content: url("/logo.jpeg");
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+#mainmenu::after {
+  content: "司络 SL-3000";
+  font-weight: bold;
+  margin-left: 10px;
+  font-size: 16px;
+}
